@@ -5,7 +5,10 @@ using Newtonsoft.Json.Linq;
 
 class Program
 {
+    // The amount of addresses to generate
     private const int AddressLimit = 10;
+    
+    // Your public master key
     private static readonly string Zpub = "zpub6qSbi54ZDPQ5EfLzsv4QYoaEdQs1TMUCv3W7HTLhu2DsuHDZpgS9ycqu9X6ALNcRPiixq1peayenAJXpxrFGKVh4LS5n2kgmFqyjNp9KjyX";
 
     static async Task Main(string[] args)
